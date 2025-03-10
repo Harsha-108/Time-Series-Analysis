@@ -4,6 +4,7 @@
 This project focuses on weather forecasting using multiple machine learning models, including ARIMA, Prophet, and Gradient Boosting Regressor. The dataset was sourced from the Kaggle Global Weather Repository and analyzed to predict temperature trends. The project aligns with the **PM Accelerator Mission** by enhancing analytical, decision-making, and forecasting skills through structured learning and model evaluation.
 
 ## Table of Contents
+- [Project Methodology](#project-methodology)
 - [Data Cleaning and Preprocessing](#data-cleaning-and-preprocessing)
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 - [Model Building and Evaluation](#model-building-and-evaluation)
@@ -11,7 +12,17 @@ This project focuses on weather forecasting using multiple machine learning mode
 - [Key Insights and Conclusions](#key-insights-and-conclusions)
 - [Future Work](#future-work)
 - [Setup and Installation](#setup-and-installation)
+- [Results](#results)
 - [References](#references)
+
+## Project Methodology
+1. **Data Collection**: Obtained historical weather data from the Kaggle Global Weather Repository.
+2. **Data Cleaning & Preprocessing**: Handled missing values, normalized data, and removed outliers.
+3. **Exploratory Data Analysis (EDA)**: Identified trends, seasonality, and relationships between variables.
+4. **Model Selection & Training**: Used ARIMA, Prophet, and Gradient Boosting Regressor for forecasting.
+5. **Evaluation**: Compared model performance using MAE and RMSE.
+6. **Advanced Analysis**: Performed anomaly detection, climate analysis, and spatial analysis.
+7. **Results Interpretation**: Extracted meaningful insights for real-world applications.
 
 ## Data Cleaning and Preprocessing
 - **Handling Missing Values**
@@ -86,6 +97,12 @@ pip install numpy pandas scikit-learn statsmodels fbprophet matplotlib seaborn g
 ```bash
 python forecast.py  # Run the forecasting models
 ```
+
+## Results
+- The **Gradient Boosting Regressor** achieved the highest accuracy with minimal error rates.
+- The **ensemble model** further improved forecast reliability by combining multiple methods.
+- **Environmental analysis** showed that temperature variations significantly impact air quality.
+- **Anomaly detection** highlighted extreme weather conditions, aiding in climate impact studies.
 
 ## References
 - Kaggle dataset: "Global Weather Repository"
