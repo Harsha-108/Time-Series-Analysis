@@ -83,7 +83,6 @@ This project focuses on weather forecasting using multiple machine learning mode
 - Regional temperature variations support spatial analysis.
 
 ## Future Work
-- Integrate real-time data for continuous forecasting.
 - Experiment with deep learning models like LSTM.
 - Analyze additional weather parameters for enhanced insights.
 
